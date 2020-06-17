@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -32,7 +33,7 @@ public class BaseTest {
     String credentialsLocation = "src/main/resources/credentials.json";
 
 
-    @BeforeSuite
+    @BeforeTest
     public void setup() throws IOException, ParseException {
 
 

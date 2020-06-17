@@ -1,4 +1,4 @@
 {
   "mode": "",
-  "chromedriverLocation": "pathToChromeDriver"
+  "chromedriverLocation": "src\\main\\resources\\chromedriver.exe"
 }
